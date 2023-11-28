@@ -1,3 +1,11 @@
+'use client';
+
+import { Login } from '@/components/Auth/Login';
+
 export default function Page() {
-  return <div className="border-1 bg-rose-700 font-bold text-red-400 " />;
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
